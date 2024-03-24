@@ -13,7 +13,6 @@ export default function Header({}: Props) {
     const position = window.scrollY;
     setScrollPosition(position);
   };
-  console.log(scrollPosition);
   useEffect(() => {
     window.addEventListener("scroll", handleScroll, { passive: true });
 
@@ -43,19 +42,29 @@ export default function Header({}: Props) {
             <div className="hidden lg:block">
               <ul className="font-hind flex gap-x-[30px] text-base font-semibold">
                 <li>
-                  <Link href="/home">হোম</Link>
+                  <Link className="hover:text-orange-light" href="/home">
+                    হোম
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/home">আমাদের সম্পর্কে</Link>
+                  <Link className="hover:text-orange-light" href="/home">
+                    আমাদের সম্পর্কে
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/home">কোর্স সমূহ</Link>
+                  <Link className="hover:text-orange-light" href="/home">
+                    কোর্স সমূহ
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/home">সফলতার গল্প</Link>
+                  <Link className="hover:text-orange-light" href="/home">
+                    সফলতার গল্প
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/home">ব্লগ</Link>
+                  <Link className="hover:text-orange-light" href="/home">
+                    ব্লগ
+                  </Link>
                 </li>
               </ul>
             </div>
