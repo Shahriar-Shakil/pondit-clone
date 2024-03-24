@@ -2,5 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
+@layer components {
+  .home-slide {
+    @apply relative bg-[url("/images/bg1.png")] bg-no-repeat bg-[50%] bg-cover min-h-[800px];
+  }
+  .add-header-bg {
+    @apply shadow-[0px_4px_15px_rgb(0_0_0_/_8%)] duration-[0.4s] m-0 pt-0;
+    background: #fff;
+  }
+  .slogan {
+    @apply bg-clip-text text-transparent;
+    background: #009dff;
+    -webkit-background-clip: text;
+  }
 }

@@ -8,7 +8,7 @@ import { IoIosClose } from "react-icons/io";
 type Props = {};
 
 export default function MobileSidebar({}: Props) {
-  const [checked, setChecked] = useState(true);
+  const [checked, setChecked] = useState(false);
   const handleChange = () => {
     setChecked((prevState) => !prevState);
   };
@@ -47,7 +47,7 @@ export default function MobileSidebar({}: Props) {
 
               <button
                 onClick={handleChange}
-                className="btn btn-sm btn-square btn-outline"
+                className="btn btn-sm btn-square btn-outline border-none	"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
