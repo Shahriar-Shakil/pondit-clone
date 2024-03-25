@@ -23,11 +23,10 @@ export default function Hero({}: Props) {
             </p>
           </div>
           <div className=" lg:mt-0 col-span-12 md:col-span-6 ">
-            <div className=" relative w-full max-w-md  aspect-[70/55]">
+            <div className=" relative w-full max-w-md  aspect-[70/60]">
               <Image
-                className="object-center md:object-right-top	"
+                className="object-center object-contain md:object-right-top	"
                 src="/images/heroImage.webp"
-                objectFit="contain"
                 alt="hero"
                 fill={true}
               />
