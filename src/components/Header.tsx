@@ -20,7 +20,6 @@ export default function Header({}: Props) {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  console.log(scrollPosition);
   return (
     <div className="fixed left-0 right-0 top-0 z-50">
       <div className={cn("py-4", scrollPosition > 100 && "add-header-bg")}>

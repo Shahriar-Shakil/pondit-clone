@@ -29,7 +29,7 @@ let data = [
   },
   {
     title: "ইন্টার্নশিপের সুযোগ",
-    icons: "/icons/status-3.svg",
+    icons: "/icons/status-2.svg",
     count: "115",
   },
 ];
@@ -43,7 +43,7 @@ export default function Status({}: Props) {
           {data.map((item, i) => (
             <div
               key={i}
-              className="flex items-center justify-center md:justify-start p-6 rounded-[20px] bg-white border"
+              className="flex items-center justify-center md:justify-start p-6 rounded-[20px] bg-white border hover:-translate-y-3 transition-all	duration-500	"
             >
               <div>
                 <Image src={item.icons} alt="icons" height={75} width={75} />

@@ -1,9 +1,8 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import { useState } from "react";
 import { HiMiniBars3CenterLeft } from "react-icons/hi2";
-import { IoIosClose } from "react-icons/io";
 
 type Props = {};
 
