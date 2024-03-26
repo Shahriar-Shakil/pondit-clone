@@ -5,7 +5,7 @@ type Props = {};
 
 export default function Hero({}: Props) {
   return (
-    <section className="home-slide flex items-center pt-[100px] pb-[60px] ">
+    <section className="section home-slide flex items-center pt-[150px] lg:pt-[100px] md:pt-0 pb-[60px] ">
       <div className="container max-w-2xl mx-auto px-4 lg:px-6">
         <div className="grid grid-cols-12">
           <div className="mr-auto col-span-12 md:col-span-6 mt-4">

@@ -20,16 +20,17 @@ export default function Header({}: Props) {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  console.log(scrollPosition);
   return (
     <div className="fixed left-0 right-0 top-0 z-50">
-      <div className={cn("py-4", scrollPosition > 150 && "add-header-bg")}>
+      <div className={cn("py-4", scrollPosition > 100 && "add-header-bg")}>
         <div className="container max-w-2xl mx-auto px-2 lg:px-6">
           <div className=" flex justify-between items-center">
             <div className="flex items-center gap-4">
               <div className="block lg:hidden">
                 <MobileSidebar />
               </div>
-              <Link href="/">
+              <Link className="flex-grow " href="/">
                 <Image
                   src="/images/logo.webp"
                   alt="logo"
