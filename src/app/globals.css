@@ -16,4 +16,8 @@
     background: #009dff;
     -webkit-background-clip: text;
   }
+
+  .new-course:before {
+    @apply content-[""] absolute bg-[url("/images/arrow.png")] w-full h-full bg-no-repeat top-0;
+  }
 }
