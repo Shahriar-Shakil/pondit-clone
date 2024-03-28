@@ -24,6 +24,7 @@ const config: Config = {
         "orange-light": "#f38681",
         dark: "#26292c",
         "dark-light": "#685f78",
+        "primary-blue": "#4587d3",
       },
     },
   },
