@@ -137,8 +137,8 @@ export default function MobileSidebar({}: Props) {
                 </div>
               </div>
 
-              <ul className="menu font-hind text-white p-0 [&_li>*]:rounded-none [&_li>*]:py-4">
-                <li className="border-b border-orange-light">
+              <ul className=" font-hind text-sm text-white  *:py-4 *:pl-4">
+                <li className="border-b border-orange-light ">
                   <Link href="/home">হোম</Link>
                 </li>
                 <li className="border-b border-orange-light">
