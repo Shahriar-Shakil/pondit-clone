@@ -1,3 +1,4 @@
+import Link from "next/link";
 import CourseCard from "./CourseCard";
 
 const data = [
@@ -24,8 +25,8 @@ type Props = {};
 
 export default function OurCourses({}: Props) {
   return (
-    <div className="home-slide  new-course mt-12 pt-10 pb-10 md:pt-[80px] md:pb-[56px] bg-blue-200">
-      <div className="container max-w-2xl mx-auto px-2  pb-14">
+    <div className="home-slide  new-course mt-12 pt-10 pb-10 md:pt-[80px] md:pb-[56px] bg-blue-200 ">
+      <div className="container max-w-2xl mx-auto px-2  pb-14 relative">
         <div className="text-center md:text-left">
           <p className="text-orange font-nato font-bold text-sm md:text-lg block tracking-[0.9px] pb-[18px]">
             সকল ক্যাটাগরীর
@@ -49,6 +50,14 @@ export default function OurCourses({}: Props) {
             <CourseCard />
             <CourseCard />
             <CourseCard />
+          </div>
+          <div className="mt-12">
+            <Link
+              href="/"
+              className="mx-auto flex items-center justify-center px-6 border-[3px] bg-white hover:bg-primary-blue  text-base  font-nato py-3 text-primary-blue hover:text-white border-primary-blue rounded-[46px] min-w-36 w-36"
+            >
+              সকল কোর্স
+            </Link>
           </div>
         </div>
       </div>

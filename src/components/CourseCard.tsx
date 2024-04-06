@@ -66,7 +66,7 @@ export default function CourseCard({}: Props) {
       <div className="flex items-center justify-center ">
         <Link
           href="/"
-          className="flex items-center justify-center px-6 border-[3px] bg-white hover:bg-white  text-base  font-nato py-3 text-primary-blue border-primary-blue rounded-[46px] min-w-36 w-36"
+          className="flex items-center justify-center px-6 border-[3px] bg-white hover:bg-white  text-base  font-nato py-3 text-primary-blue  border-primary-blue rounded-[46px] min-w-36 w-36"
         >
           বিস্তারিত
         </Link>
