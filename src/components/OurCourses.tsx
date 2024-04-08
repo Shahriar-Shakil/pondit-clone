@@ -28,10 +28,10 @@ export default function OurCourses({}: Props) {
     <div className="home-slide  new-course mt-12 pt-10 pb-10 md:pt-[80px] md:pb-[56px]  ">
       <div className="container max-w-2xl mx-auto px-2  pb-14 relative">
         <div className="text-center md:text-left">
-          <p className="text-orange font-nato font-bold text-sm md:text-lg block tracking-[0.9px] pb-[18px]">
+          <p className="text-orange font-nato font-bold text-sm md:text-lg block tracking-[0.9px] pb-2 md:pb-[18px]">
             সকল ক্যাটাগরীর
           </p>
-          <h2 className="text-4xl font-hind font-bold text-[#0b0b0b] tracking-[0.9px] mb-0">
+          <h2 className="text-2xl md:text-4xl font-hind font-bold text-[#0b0b0b] tracking-[0.9px] mb-0">
             চলমান কোর্সসমূহ
           </h2>
         </div>

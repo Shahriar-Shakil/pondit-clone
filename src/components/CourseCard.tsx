@@ -15,8 +15,8 @@ export default function CourseCard({}: Props) {
           alt="hero"
           fill={true}
         />
-        <div className="absolute z-20 top-1/2 right-1/2 translate-x-1/2 text-white ">
-          <p className="text-2xl font-bold  font-hind hadow-md scale-125 group-hover/cardHead:scale-100 transition-all duration-300">
+        <div className="absolute z-20 top-1/2 right-1/2   translate-x-1/2  text-white ">
+          <p className="text-sm sm:text-2xl font-bold  font-hind hadow-md scale-125 group-hover/cardHead:scale-100 transition-all duration-300">
             গ্রাফিক ডিজাইন
           </p>
         </div>
