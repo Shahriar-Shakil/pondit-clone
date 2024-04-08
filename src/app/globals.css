@@ -93,6 +93,10 @@
     @apply content-[""] absolute bg-[url("/images/arrow.png")] w-full h-full bg-no-repeat top-0 hidden lg:block;
   }
 
+  .success-stories {
+    @apply bg-[url("/images/hero-area-image.webp")] bg-no-repeat bg-[50%] bg-cover min-h-[500px] px-0 py-20;
+  }
+
   /* shadcn drawer hack! */
   .drawer-content {
     @apply rounded-none !important;
