@@ -6,17 +6,14 @@ import Slider from "react-slick";
 type Props = {
   children: React.ReactNode;
   className?: string;
+  settings: any;
 };
 
-export default function CarouselWrapper({ children, className }: Props) {
-  var settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-  };
+export default function CarouselWrapper({
+  children,
+  className,
+  settings,
+}: Props) {
   return (
     <Slider {...settings} className={className}>
       {children}

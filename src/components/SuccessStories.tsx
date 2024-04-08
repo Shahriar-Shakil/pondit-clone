@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { successStorySettings } from "@/lib/carouselSettings";
 import CarouselWrapper from "./CarouselWrapper";
 import StoryCard from "./StoryCard";
 
@@ -22,7 +23,10 @@ export default function SuccessStories({}: Props) {
       <div className="absolute inset-x-0 overflow-hidden">
         <div className="container max-w-sm mx-auto ">
           <div className=" bg-gradient-to-b from-gray-500 to-gray-100 p-6	md:p-14 border-8 rounded-3xl border-white ">
-            <CarouselWrapper className="SuccessStoriesSlide ">
+            <CarouselWrapper
+              settings={successStorySettings}
+              className="SuccessStoriesSlide "
+            >
               <div>
                 <StoryCard />
               </div>

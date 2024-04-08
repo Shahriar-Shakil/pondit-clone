@@ -97,6 +97,8 @@
     @apply bg-[url("/images/hero-area-image.webp")] bg-no-repeat bg-[50%] bg-cover min-h-[500px] px-0 py-20;
   }
 
+  /* slick carousel */
+
   /* shadcn drawer hack! */
   .drawer-content {
     @apply rounded-none !important;
@@ -105,4 +107,12 @@
     @apply hidden;
   }
   /* shadcn drawer hack! */
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #f38681 !important;
+}
+.slick-prev,
+.slick-next {
+  top: 35%;
 }
