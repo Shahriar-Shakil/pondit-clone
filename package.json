@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.5",
+    "@types/aos": "^3.0.7",
     "@types/react-slick": "^0.23.13",
+    "aos": "^2.3.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "daisyui": "^4.7.3",

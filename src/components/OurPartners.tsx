@@ -8,7 +8,7 @@ type Props = {};
 export default function OurPartners({}: Props) {
   return (
     <div className="container max-w-2xl mx-auto  py-10 md:py-20">
-      <div className="text-center">
+      <div data-aos="fade-up" data-aos-duration="500" className="text-center">
         <span className="text-sm md:text-lg  font-nato text-orange pb-2 md:pb-5 font-bold tracking-wide block">
           আমাদের সাথে যুক্ত আছেন
         </span>
@@ -16,7 +16,7 @@ export default function OurPartners({}: Props) {
           দেশের শীর্ষ স্থানীয় বিশ্ববিদ্যালয় এবং প্রতিষ্ঠান সমূহ
         </h2>
       </div>
-      <div>
+      <div data-aos="fade-up" data-aos-duration="500">
         <CarouselWrapper settings={ourPartnerSettings}>
           <div>
             <Image

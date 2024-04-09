@@ -39,7 +39,11 @@ export default function Status({}: Props) {
   return (
     <div className="container max-w-2xl mx-auto px-2  pb-14 ">
       <div className="pt-[70px]  lg:pt-0 bg-white md:bg-transparent -mt-6 md:mt-0   lg:-mt-16  relative">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-3">
+        <div
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-3 "
+          data-aos="fade-up"
+          data-aos-duration="500"
+        >
           {data.map((item, i) => (
             <div
               key={i}

@@ -11,7 +11,7 @@ export default function SuccessStories({}: Props) {
     <section className="success-stories bg-blend-multiply	mb-20 relative ">
       <div className="absolute top-0 left-0 right-0 h-full bg-black/40"></div>
       <div className="container max-w-2xl mx-auto px-2 relative">
-        <div className="text-center">
+        <div data-aos="fade-up" data-aos-duration="500" className="text-center">
           <span className="text-sm md:text-lg  font-nato text-white pb-5 font-bold tracking-wide">
             প্রশিক্ষণার্থীদের মতামত
           </span>
@@ -22,7 +22,11 @@ export default function SuccessStories({}: Props) {
       </div>
       <div className="absolute inset-x-0 overflow-hidden">
         <div className="container max-w-sm mx-auto ">
-          <div className=" bg-gradient-to-b from-gray-500 to-gray-100 p-6	md:p-14 border-8 rounded-3xl border-white ">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            className=" bg-gradient-to-b from-gray-500 to-gray-100 p-6	md:p-14 border-8 rounded-3xl border-white "
+          >
             <CarouselWrapper
               settings={successStorySettings}
               className="SuccessStoriesSlide "

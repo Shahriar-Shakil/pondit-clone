@@ -7,7 +7,11 @@ type Props = {};
 
 export default function CourseCard({}: Props) {
   return (
-    <div className="p-5 relative rounded-xl bg-white space-y-5 hover:bg-primary-blue group transition-all duration-300 ">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="500"
+      className="p-5 relative rounded-xl bg-white space-y-5 hover:bg-primary-blue group transition-all duration-300 "
+    >
       <div className="group/cardHead relative  overflow-hidden shadow-xl aspect-[2/1] rounded-xl">
         <Image
           className="absolute w-full h-full group-hover/cardHead:scale-150 transition-all duration-200"

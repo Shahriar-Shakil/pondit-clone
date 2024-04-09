@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Hind_Siliguri, Noto_Sans_Bengali } from "next/font/google";
+import AOSinit from "@/components/AOSinit";
 
 const hind = Hind_Siliguri({
   weight: ["400", "500", "600", "700"],
@@ -26,7 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${hind.variable} ${nato.variable}`}>{children}</body>
+      <body className={`${hind.variable} ${nato.variable}`}>
+        <AOSinit>{children}</AOSinit>
+      </body>
     </html>
   );
 }

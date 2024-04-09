@@ -27,7 +27,11 @@ export default function OurCourses({}: Props) {
   return (
     <div className="home-slide  new-course mt-12 pt-10 pb-10 md:pt-[80px] md:pb-[56px]  ">
       <div className="container max-w-2xl mx-auto px-2  pb-14 relative">
-        <div className="text-center md:text-left">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="500"
+          className="text-center md:text-left"
+        >
           <p className="text-orange font-nato font-bold text-sm md:text-lg block tracking-[0.9px] pb-2 md:pb-[18px]">
             সকল ক্যাটাগরীর
           </p>
@@ -35,7 +39,11 @@ export default function OurCourses({}: Props) {
             চলমান কোর্সসমূহ
           </h2>
         </div>
-        <div className="mt-6 md:mt-10 font-nato text-base font-medium text-dark-light max-w-md text-center md:text-left">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="500"
+          className="mt-3 md:mt-6 font-nato text-base font-medium text-dark-light max-w-md text-center md:text-left"
+        >
           <p>
             আমাদের কোর্সসমূহ ইন্ডাস্ট্রির অভিজ্ঞ এবং দক্ষ মেন্টর দ্বারা পরিচালিত
             হচ্ছে। মেন্টরগণ বাংলাদেশের স্বনামধন্য বিভিন্ন সফটওয়্যার ডেভেলপমেন্ট
