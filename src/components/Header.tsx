@@ -14,8 +14,10 @@ export default function Header({}: Props) {
     setScrollPosition(position);
   };
   useEffect(() => {
+    if (scrollPosition === 0) {
+      setScrollPosition(window.scrollY);
+    }
     window.addEventListener("scroll", handleScroll, { passive: true });
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
