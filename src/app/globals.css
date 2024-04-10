@@ -75,7 +75,7 @@
   }
 }
 @layer components {
-  .home-slide {
+  .background-image {
     @apply relative bg-[url("/images/bg1.png")] bg-no-repeat bg-[50%] bg-cover min-h-[800px];
   }
   .add-header-bg {
