@@ -2,11 +2,11 @@ import Image from "next/image";
 import React from "react";
 import { successStorySettings } from "@/lib/carouselSettings";
 import CarouselWrapper from "./CarouselWrapper";
-import StoryCard from "./StoryCard";
+import TestimonialsCard from "./TestimonialsCard";
 
 type Props = {};
 
-export default function SuccessStories({}: Props) {
+export default function Testimonials({}: Props) {
   return (
     <section className="success-stories bg-blend-multiply	mb-20 relative ">
       <div className="absolute top-0 left-0 right-0 h-full bg-black/40"></div>
@@ -32,16 +32,16 @@ export default function SuccessStories({}: Props) {
               className="SuccessStoriesSlide "
             >
               <div>
-                <StoryCard />
+                <TestimonialsCard />
               </div>
               <div>
-                <StoryCard />
+                <TestimonialsCard />
               </div>
               <div>
-                <StoryCard />
+                <TestimonialsCard />
               </div>
               <div>
-                <StoryCard />
+                <TestimonialsCard />
               </div>
             </CarouselWrapper>
           </div>

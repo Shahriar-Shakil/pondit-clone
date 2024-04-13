@@ -3,7 +3,7 @@ import React from "react";
 
 type Props = {};
 
-export default function StoryCard({}: Props) {
+export default function TestimonialsCard({}: Props) {
   return (
     <div className="flex flex-col justify-center items-center">
       <div>

@@ -23,7 +23,7 @@ export default function RecentBlogs({}: Props) {
             করেছি আমরা। আশা করছি এই জ্ঞান সমৃদ্ধ করবে আপনাদের।
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-6 mt-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6 mt-4">
           <div data-aos="fade-up" data-aos-duration="500">
             <div className="relative w-full max-h-52  aspect-[1/1]">
               <Image
