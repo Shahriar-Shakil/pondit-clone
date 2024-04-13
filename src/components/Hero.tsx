@@ -8,7 +8,11 @@ export default function Hero({}: Props) {
     <section className="section background-image flex items-center pt-[150px] lg:pt-[100px] md:pt-0 pb-[60px] ">
       <div className="container max-w-2xl mx-auto px-4 lg:px-6">
         <div className="grid grid-cols-12">
-          <div className="mr-auto col-span-12 md:col-span-6 mt-4">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            className="mr-auto col-span-12 md:col-span-6 mt-4"
+          >
             <h2 className="font-hind slogan max-w-2xl text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-4xl ">
               দক্ষতার সাথে
             </h2>
