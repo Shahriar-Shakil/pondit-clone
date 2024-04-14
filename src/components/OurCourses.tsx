@@ -59,7 +59,7 @@ export default function OurCourses({}: Props) {
             <CourseCard />
             <CourseCard />
           </div>
-          <div className="mt-12">
+          <div data-aos="fade-up" data-aos-duration="500" className="mt-12">
             <Link
               href="/"
               className="mx-auto flex items-center justify-center px-6 border-[3px] bg-white hover:bg-primary-blue  text-base  font-nato py-3 text-primary-blue hover:text-white border-primary-blue rounded-[46px] min-w-36 w-36"
