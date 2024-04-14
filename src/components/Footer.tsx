@@ -19,12 +19,7 @@ export default function Footer({}: Props) {
     <footer>
       <div className="container max-w-2xl mx-auto px-2 my-10">
         {/* footer top */}
-
-        <div
-          data-aos="fade-up"
-          data-aos-duration="500"
-          className="grid grid-cols-12 gap-6"
-        >
+        <div className="grid grid-cols-12 gap-6">
           <div className="col-span-12 md:col-span-4 max-w-full md:max-w-80">
             <div>
               <div className="mb-4">
