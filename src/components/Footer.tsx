@@ -1,7 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaLocationDot } from "react-icons/fa6";
+import { FaFacebookSquare } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaLocationDot,
+  FaSquareInstagram,
+  FaUserGroup,
+  FaYoutube,
+} from "react-icons/fa6";
 import { IoIosCall } from "react-icons/io";
 import { IoMailOutline } from "react-icons/io5";
 
@@ -10,8 +17,9 @@ type Props = {};
 export default function Footer({}: Props) {
   return (
     <footer>
-      {/* footer top */}
       <div className="container max-w-2xl mx-auto px-2 my-10">
+        {/* footer top */}
+
         <div
           data-aos="fade-up"
           data-aos-duration="500"
@@ -99,6 +107,56 @@ export default function Footer({}: Props) {
                 <p> +880 173 8240668</p>
               </div>
             </div>
+          </div>
+        </div>
+        {/* footer bottom */}
+        <div className="grid grid-cols-12 gap-y-5 mt-10">
+          <div className="col-span-12 md:col-span-5 ">
+            <ul className="flex justify-center md:justify-start  [&>li]:text-sm [&>li]:font-nato [&>li]:px-2  hover:[&>li]:text-orange divide-x ">
+              <li>
+                <Link href="/">নীতিমালা</Link>
+              </li>
+              <li>
+                <Link href="/">গোপনীয়তা নীতি</Link>
+              </li>
+            </ul>
+          </div>
+          <div className="col-span-12 md:col-span-2">
+            <div className="flex items-center justify-center gap-2">
+              <a
+                href="https://www.facebook.com/inspireditfamily"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebookSquare className="w-6 h-6 text-blue-600" />
+              </a>
+              <a
+                href="https://www.facebook.com/groups/1954813248150977"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaUserGroup className="w-6 h-6 text-blue-600" />
+              </a>
+              <a
+                href="https://www.instagram.com/inspireditfamily/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaSquareInstagram className="w-6 h-6 text-pink-500" />
+              </a>
+              <a
+                href="https://www.youtube.com/@inspireditfamily"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaYoutube className="w-6 h-6 text-rose-500" />
+              </a>
+            </div>
+          </div>
+          <div className="col-span-12 md:col-span-5">
+            <p className="text-center md:text-right">
+              স্বত্ব © ২০২৪ ইন্সপেয়ার আইটি{" "}
+            </p>
           </div>
         </div>
       </div>
